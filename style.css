@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+}
+.header{
+    height:100px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+}
+.head{
+    height:90px;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+   
+}
+.logo{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    /* border-radius: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo span{
+    font-size: 32px;
+    margin-left: 20px;
+}
+.con{
+    height: 100%;
+    width: 70%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.con span{
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+.con i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.con button{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 19px;
+}
+.home{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+  
+}
+.home h1{
+    font-size: 52px;
+    margin-top: 20px;
+}
+.home h3{
+    font-size: 29px;
+    margin-top: 20px;
+}
+.home input{
+    height: 45px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 22px;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blue; */
+}
+.navbar{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar h1{
+    font-size: 42px;
+}
+.navbar p{
+    font-size: 20px;
+}
+.a-home{
+    height: 75%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.ho{
+    height: 100%;
+    width: 50%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    flex-direction: column;
+}
+.ho h1{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ho p{
+    height: 40%;
+    width: 80%;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.hm{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: aliceblue;
+}
+.card img{
+    height: 350px;
+    width: 300px;
+}
+.card1{
+    height: 330px;
+    width: 300px;
+    background-color: aliceblue;
+}
+.card1 img{
+    height: 330px;
+    width: 300px;
+}
+.contact{
+    height: 70vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+}
+.cl{
+height: 100%;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.cr{
+    height: 100%;
+    width: 50%;
+}
+.cr h1{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cr p{
+    height: 40%;
+    width: 80%;
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.contact1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+.service{
+    height: 100vh;
+    width: 100%;
+    /* background-color: bisque; */
+}
+.navbar1{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar1 h1{
+    font-size: 42px;
+}
+.navbar1 p{
+    font-size: 20px;
+}
+.cards{
+    height: 80%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-radius: 20px; */
+    
+}
+
+.one{
+    height: 450px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+}
+.i1{
+    height: 200px;
+    width: 380px;
+    /* background-color: black; */
+    border-radius: 10px;
+    /* display: flex; align-items: center; */
+}
+.i1 img{
+    height: 200px;
+    width: 380px;
+    border-radius: 10px;
+}
+.i1 img:hover{
+    transition: all o.9s ease-in-out;
+    scale: 1.01;
+}
+.one h1{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.one p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+.foot{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+} 
+.ft{
+    height: 30%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+.fl{
+    height: 100%;
+    width: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    flex-direction: column;
+} 
+.fl h1{
+    font-size: 32px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}  
+.fl p{
+    font-size: 22px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+}  
+.fr{
+    height: 100%;
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.fr i{
+    font-size: 32px;
+    color: white;
+    margin-left: 20px;
+}  
+.fb{
+    height: 70%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.icon h1{
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+} 
+.icon p{
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+} 
